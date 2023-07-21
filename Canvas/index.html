@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <canvas id="canvas" width="801px" height="600px"></canvas>
+    <div class="toolbar">
+        <button id="decrease">-</button>
+        <span class="span">
+            <span id="size">8</span>
+            <button id="reset">Reset</button>
+        </span>
+        <button id="increase">+</button>
+        <input type="color" id="color">
+        <button class="pen active"><i class="fa-solid fa-pen"></i></button>
+        <button class="eraser"><i class="fa-solid fa-eraser"></i></button>
+        <button id="clear"><i class="fa-solid fa-x"></i></button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
