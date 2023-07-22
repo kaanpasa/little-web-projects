@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <marquee scrollamount="18" behavior="scroll"><pre>This text will scroll continuously.  |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, enim!  |  Lorem ipsum dolor sit amet.  | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, quas? Cumque, molestias.<pre></marquee>
+        <marquee scrollamount="24" behavior="slide"><pre>This text will be stick to the corner.  |  Lorem ipsum dolor sit amet.<pre></marquee>
+        
+        <marquee direction="down" width="100%" height="300px" behavior="alternate">
+            <marquee behavior="alternate" style="border:none"> This text will bounce </marquee>
+        </marquee>
+    </div>
+</body>
+</html>
