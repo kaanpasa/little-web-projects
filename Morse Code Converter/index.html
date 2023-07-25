@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Code Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <h1>Morse Code Converter</h1>
+    <div class="container">
+        <textarea id="inputText" rows="4" cols="50" placeholder="Enter text..."></textarea>
+        <button id="convert">Convert</button>
+        <br>
+        <textarea id="outputText" rows="4" cols="50" readonly></textarea>
+        <button id="generate">Generate</button>
+        
+        <div class="code-container">
+            <div class="generator"></div>
+            <p class="currentMorse"></p>
+        </div>
+    </div>
+</body>
+
+</html>

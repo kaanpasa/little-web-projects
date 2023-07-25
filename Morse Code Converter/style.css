@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #111;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+textarea {
+    width: 50vw;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid green;
+    color: #fff;
+}
+
+button{
+    background-color: green;
+    outline: white;
+}
+
+.code-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+}
+
+.code-container p{
+    color: #111;
+    margin: 15px;
+    font-size: 64px;
+}
+
+.generator{
+    width: 100px;
+    height: 100px;
+    border: 3px dashed green;
+    margin-top: 10px;
+}
